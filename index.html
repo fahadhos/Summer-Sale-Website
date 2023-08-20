@@ -309,9 +309,25 @@
                     <div class="form-control">
                        
                           
-                          <button class="btn btn-primary relative top-14 rounded-lg border-none bg-[#E527B2] text-white">
-                            Apply
+                          <button class="btn btn-primary relative top-14 rounded-lg border-none bg-[#E527B2] text-white"   onclick="my_modal_2.showModal()">
+                            Make Purchase
                           </button>
+
+                          <!-- Open the modal using ID.showModal() method -->
+ 
+<dialog id="my_modal_2" class="modal grid place-items-center">
+  <form method="dialog" class="modal-box justify-center  grid place-items-center text-center" >
+    <img class="justify-center text-center items-center place-content-center " src="images/congo.png" alt="congo image">
+    <h3 class="font-bold text-lg">Congratulations</h3>
+    <p class="py-4">Your Purchase the product</p>
+   <a href="/index.html">
+    <button class="btn   btn-primary border-none  bg-[#E527B2]  text-white font-semibold"  >Go Home</button>
+   </a> 
+  </form>
+  <form method="dialog" class="modal-backdrop">
+    <button>close</button>
+  </form>
+</dialog>
                     
                       </div>
                 </div>
