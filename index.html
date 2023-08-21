@@ -11,23 +11,23 @@
     <script src="js/tailwind.js"></script>
   </head>
 
-  <body class="max-sm:overflow-x-hidden">
+  <body class="">
     <!-- banner section code started shadow-2xl-->
 
-    <div class="hero min-h-screen max-sm:w-[40rem] bg-[#F9F6E2]  max-sm:overflow-x-hidden">
+    <div class="hero min-h-screen max-sm:w-[28rem] bg-[#F9F6E2]   ">
       <div class="hero-content max-sm:flex-col lg:flex-row-reverse">
-        <img src="images/Summer 1.png" class="max-w-sm rounded-lg" />
+        <img src="images/Summer 1.png" class="max-w-sm max-sm:w-60 max-sm:justify-center max-sm:text-center max-sm:items-center rounded-lg" />
         <div>
-          <p class="py-6 text-center font-medium">---SALE FEVER---</p>
-          <h1 class="text-5xl max-sm:text-3xl font-bold">
+          <p class="py-6 text-center font-medium max-sm:text-sm">---SALE FEVER---</p>
+          <h1 class="text-5xl max-sm:text-2xl font-bold ">
             Purchase TK 200 or <br />
             above & get <span class="text-[#E527B2]">20% off </span>
           </h1>
           <div class="flex justify-center items-center gap-5">
             <div class="flex items-center mt-10 gap-5 text-center">
-              <p class="py-6 font-medium">Use Promo Code</p>
+              <p class="py-6 font-medium max-sm:text-sm">Use Promo Code</p>
 
-              <button class="btn bg-[#E527B2] text-white font-semibold w-24">
+              <button class="btn bg-[#E527B2] text-white font-semibold w-24 max-sm:w-20">
                 SELL200
               </button>
             </div>
@@ -41,7 +41,7 @@
     <!-- *********************************************** -->
     <!-- Main  section code started -->
     <main
-      class="bg-[#F8F8F8] justify-center items-center place-content-center pl-10 max-sm:w-[40rem] lg:w-full"
+      class="bg-[#F8F8F8] justify-center items-center place-content-center pl-10 max-sm:w-[28rem] max-sm:pl-1 lg:w-full max-sm:pb-16"
     >
       <section
         class="flex max-sm:grid max-sm:justify-center max-sm:items-center max-sm:text-start md:gap-2 md:sticky"
@@ -516,7 +516,7 @@
         <!--End of Main category section code Khatam -->
         <!-- -------------------------------------------------- -->
         <!-- Coupon and cart area  bellow ok -->
-        <div class="flex-col mt-[5.5rem] max-sm:inline-block">
+        <div class="flex-col mt-[5.5rem] max-sm:inline-block max-sm:-left-4 max-sm:relative"  >
           <!-- Have Coupon  section code started -->
           <div class="card w-96 bg-base-100 shadow-xl mb-10">
             <div class="card-body">
@@ -552,8 +552,8 @@
           <!--End of Have Coupon? section code ended -->
 
           <!-- Cart Item list box section code started -->
-          <div class="card w-96 bg-base-100 shadow-xl">
-            <div class="card-body">
+          <div class="card w-96 bg-base-100 shadow-xl ">
+            <div class="card-body  ">
               <!-- eikhane append hobe cart item names -->
               <p id="cart-empty-warning" class="text-red-600 font-semibold">
                 Your Cart is Empty!
@@ -584,11 +584,14 @@
               </p>
 
               <div class="divider"></div>
-              <div class="form-control">
+
+              <div class="form-control  max-sm:pb-16 md:pb-16 overflow-y-hidden">
                 <button
                   id="make-purchase-btn"
                   type="button"
-                  class="btn relative top-14 rounded-lg bg-[#E527B2] text-white px-8 py-3 btn-disabled"
+                  class="btn relative top-14  rounded-lg bg-[#E527B2] text-white px-8 py-3 btn-disabled 
+                  
+                  "
                   onclick="my_modal_2.showModal()"
                 >
                   Make Purchase
