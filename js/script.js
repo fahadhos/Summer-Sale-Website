@@ -70,7 +70,7 @@ function handleCoupon(target) {
         // console.log('coupon pelo')
         const discounted = sum * (20 / 100);
         console.log('pelam discount -- ' + discounted.toFixed(2));
-        document.getElementById('selected-discount').innerText = discounted.toFixed(2);
+        // document.getElementById('selected-discount').innerText = discounted.toFixed(2);
         document.getElementById('msg').classList.add('hidden');
     }
     else if (target.value != "SELL200") {
